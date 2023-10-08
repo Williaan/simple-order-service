@@ -1,0 +1,122 @@
+.container_sidebar {
+    background-color: rgb(19, 129, 131);
+    width: 200px;
+    height: calc(100% - 60px);
+    padding-top: 55px;
+    position: absolute;
+    left: 0;
+
+}
+
+.content_sidebar {
+    max-width: 190px;
+    margin: 0 auto;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.content_sidebar .content_logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 25px;
+}
+
+.content_logo .logo {
+    object-fit: contain;
+    width: 70%;
+    height: 70%;
+    border-radius: 100%;
+}
+
+.content_sidebar .menu {
+    width: 100%;
+}
+
+.content_sidebar .menu a {
+    color: #FFF;
+    width: 100%;
+    font-weight: 600;
+    display: block;
+    line-height: 55px;
+    padding-left: 20px;
+    padding-right: 10px;
+    box-sizing: border-box;
+    transition: .4s;
+}
+
+.content_sidebar .menu a {
+    display: flex;
+    align-items: center;
+}
+
+.content_sidebar .menu a svg {
+    margin-right: 20px;
+
+}
+
+.content_sidebar .menu a:hover {
+    background-color: #FFF;
+    color: #000;
+    border-radius: 10px;
+}
+
+.content_sidebar .logout {
+    width: 100%;
+    display: block;
+    padding-left: 20px;
+    margin-top: 140px;
+    line-height: 50px;
+    background-color: #FFF;
+    color: #000;
+    font-weight: 700;
+    border-radius: 10px;
+}
+
+.content_sidebar .logout {
+    display: flex;
+    align-items: center;
+
+}
+
+.content_sidebar .logout svg {
+    margin-right: 20px;
+}
+
+
+@media(max-width:420px) {
+    .container_sidebar {
+        width: 80px;
+        display: none;
+    }
+
+    .content_sidebar {
+        position: absolute;
+
+    }
+
+    .content_sidebar .menu a span {
+        display: none;
+    }
+
+    .content_sidebar .menu a:hover {
+        background: transparent;
+        border-radius: 0px;
+    }
+
+    .menu a svg {
+        margin-bottom: 40px;
+        margin-left: 10px;
+    }
+
+    .content_sidebar .logout span {
+        display: none;
+    }
+
+    .content_sidebar .logout {
+        background: transparent;
+        color: #FFF;
+    }
+}

@@ -1,0 +1,49 @@
+header {
+    background-color: rgb(19, 129, 131);
+    width: 100%;
+    height: 60px;
+}
+
+.container_header {
+    max-width: 95%;
+    height: inherit;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.left_area {
+    height: 70px;
+    display: flex;
+    align-items: center;
+}
+
+.left_area svg {
+    cursor: pointer;
+    margin-left: 40px;
+}
+
+.title {
+    text-transform: uppercase;
+    font-weight: bolder;
+    color: #FFF;
+    font-size: 30px;
+    letter-spacing: 1px;
+}
+
+.right_area p {
+    font-size: 18px;
+    font-weight: 700;
+    color: #FFF;
+}
+
+.right_area p span {
+    color: #c0c0c0;
+}
+
+@media(max-width:420px) {
+    header {
+        width: 100%;
+    }
+}

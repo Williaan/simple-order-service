@@ -1,0 +1,40 @@
+.container_register {
+    background-color: #FFF;
+    max-width: 900px;
+    height: 470px;
+    margin: 0 auto;
+    margin-top: 100px;
+}
+
+.content_register {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap-reverse;
+    box-shadow: 2px 2px 15px 1px rgba(32, 32, 32, 0.5);
+}
+
+
+/*PHONE*/
+@media(max-width:450px) {
+    .container_register {
+        max-width: 96%;
+        margin-top: 0px;
+    }
+
+    .content_register {
+        background-color: #FFF;
+    }
+}
+
+/*IPAD*/
+@media(max-width:850px) {
+    .container_register {
+        width: 98%;
+        margin-top: 0px;
+    }
+
+    .content_register {
+        background-color: #FFF;
+    }
+}

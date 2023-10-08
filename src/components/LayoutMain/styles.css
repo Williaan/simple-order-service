@@ -1,0 +1,32 @@
+.container_main {
+    background-color: #FFF;
+    width: 80%;
+    height: calc(100% - 100px);
+    position: absolute;
+    left: 240px;
+    top: 85px;
+    overflow-y: scroll;
+
+}
+
+.container_title_main {
+    display: flex;
+    align-items: center;
+    padding: 5px;
+    margin-left: 50px;
+}
+
+.container_title_main .title_main {
+    margin-left: 5px;
+    font-size: 35px;
+    margin: 20px;
+    color: #00cccc;
+    font-family: 'Roboto', sans-serif;
+}
+
+@media(max-width:769px) {
+    .container_main {
+        width: 100%;
+        left: 0px;
+    }
+}

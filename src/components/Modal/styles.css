@@ -1,0 +1,64 @@
+.container_del {
+    background-color: #FFF;
+    width: 400px;
+    height: 270px;
+    z-index: 10;
+    display: flex;
+    margin-left: 100px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.content_del {
+    margin-top: 16px;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.content_icon {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 20px;
+    padding-top: 20px;
+    margin-top: -100px;
+    margin-bottom: 40px;
+}
+
+.content_icon .icon_close {
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.container_del h3 {
+    font-size: 28px;
+    color: #17698b;
+    margin-bottom: 10px;
+}
+
+.modal_del {
+    margin-top: 30px;
+}
+
+.modal_del .btn_del {
+    padding: 9px 30px;
+    margin: 5px;
+    color: #FFF;
+    font-weight: bold;
+    cursor: pointer;
+
+}
+
+.modal_del .btn_yes {
+    background-color: blue;
+    margin-right: 55px;
+}
+
+.modal_del .btn_no {
+    background-color: #c22e2e;
+}

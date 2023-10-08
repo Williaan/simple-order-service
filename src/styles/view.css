@@ -1,0 +1,127 @@
+.container_view {
+    width: 70%;
+    height: 100%;
+    margin: 0 auto;
+    margin-top: 10px;
+    background-color: #FFF;
+}
+
+.content_title_logo {
+    display: flex;
+    align-items: center;
+    margin-bottom: 70px;
+    padding: 15px;
+    margin-left: 20px;
+}
+
+.content_title_logo .brand {
+    width: 80px;
+    height: 80px;
+    margin-right: 10px;
+}
+
+.container_details_client,
+.content_btns_view,
+.content_signature {
+    margin-left: 20px;
+}
+
+.content_name {
+    padding: 10px;
+}
+
+.content_name .titles,
+.content_personal .titles,
+.content_address .titles,
+.content_vehicle .titles,
+.content_service .titles {
+    font-weight: bold;
+    font-size: 16px;
+    margin-right: 70px;
+}
+
+.content_name span,
+.content_personal span,
+.content_address span,
+.content_vehicle span,
+.content_service span {
+    font-weight: normal;
+}
+
+.content_personal,
+.content_address,
+.content_vehicle {
+    padding: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.content_service {
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.content_service .parts {
+    margin-bottom: 17px;
+}
+
+.content_signature {
+    margin-top: 50px;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.content_signature .signature {
+    margin-right: 360px;
+    font-weight: bold;
+}
+
+.content_btns_view {
+    margin-top: 50px;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.content_btns_view .btn_back,
+.content_btns_view .btn_print {
+    background-color: #51920f;
+    color: #FFF;
+    cursor: pointer;
+    border-radius: 10px;
+    padding: 5px;
+    margin-bottom: 30px;
+}
+
+.content_btns_view .btn_print {
+    background-color: blue;
+}
+
+
+
+@media(max-width:700px) {
+    .container_view {
+        width: 100%;
+    }
+
+    .container_details_client,
+    .content_btns_view {
+        margin: 0;
+    }
+
+    .content_name .titles,
+    .content_personal .titles,
+    .content_address .titles,
+    .content_vehicle .titles,
+    .content_service .titles {
+        margin-right: 30px;
+    }
+
+    .content_signature .signature {
+        margin-top: 300px;
+        margin-right: 245px;
+    }
+}

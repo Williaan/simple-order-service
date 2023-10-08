@@ -1,0 +1,30 @@
+@import url('personalized.css');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body,
+html {
+    font-family: 'Roboto', sans-serif;
+    background-color: #DCDCDC;
+}
+
+input,
+textarea,
+button {
+    outline: none;
+    border: none;
+
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
