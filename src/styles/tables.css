@@ -60,6 +60,10 @@
 }
 
 @media(max-width:420px) {
+    .container_btn_add {
+        right: 0px;
+    }
+
     .container_table {
         max-width: 95%;
     }

@@ -62,3 +62,11 @@
 .modal_del .btn_no {
     background-color: #c22e2e;
 }
+
+@media(max-width:420px) {
+    .container_del {
+        height: 260px;
+        margin-left: 60px;
+        margin-right: 10px;
+    }
+}

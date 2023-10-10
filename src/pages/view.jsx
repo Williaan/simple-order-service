@@ -64,7 +64,6 @@ export default function View() {
                     </div>
                 </div>
 
-
                 <div className="content_signature">
                     <p className='signature'>Ass. Cliente:</p>
                     <p className='signature'>Ass. Oficina:</p>

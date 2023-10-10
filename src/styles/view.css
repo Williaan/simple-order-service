@@ -50,6 +50,7 @@
 
 .content_personal,
 .content_address,
+.container_value,
 .content_vehicle {
     padding: 10px;
     display: flex;
@@ -121,7 +122,7 @@
     }
 
     .content_signature .signature {
-        margin-top: 300px;
+        margin-top: 200px;
         margin-right: 245px;
     }
 }
