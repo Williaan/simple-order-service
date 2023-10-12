@@ -62,6 +62,10 @@
     width: 45%;
 }
 
+.input_area .plate {
+    text-transform: uppercase;
+}
+
 .input_cpf {
     cursor: not-allowed;
 

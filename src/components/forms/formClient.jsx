@@ -198,7 +198,7 @@ export default function FormClient() {
                                     <InputMask
                                         mask={"aaa-9999"}
                                         type="text"
-                                        className="inputs_client"
+                                        className="inputs_client plate"
                                         name='plate'
                                         placeholder='Placa do veículo'
                                         {...register('plate')} />
