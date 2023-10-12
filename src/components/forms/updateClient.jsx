@@ -36,7 +36,13 @@ export default function FormClient() {
             });
 
         } catch (error) {
-            console.log(error);
+            // eslint-disable-next-line no-self-compare
+            if (data.plate === data.plate) {
+                return toast.warn("Já existe uma PLACA igual cadastrada  !", {
+                    position: toast.POSITION.TOP_RIGHT,
+                    className: 'toast-message'
+                });
+            }
         }
     }
 

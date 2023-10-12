@@ -51,8 +51,8 @@ export default function FormClient() {
         } catch (error) {
 
             // eslint-disable-next-line no-self-compare
-            if (data.cpf === data.cpf) {
-                return toast.warn("Já existe um CPF igual cadastrado  !", {
+            if (data.cpf === data.cpf || data.plate === data.plate) {
+                return toast.warn("Já existe um CPF igual ou uma PLACA igual cadastrada, verifique os campos!", {
                     position: toast.POSITION.TOP_RIGHT,
                     className: 'toast-message'
                 });
