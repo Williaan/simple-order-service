@@ -126,12 +126,18 @@
 
 @media(max-width:420px) {
     .container_sidebar {
-        width: 50px;
+        width: 45px;
 
     }
 
     .content_sidebar {
         position: absolute;
+
+    }
+
+    .content_sidebar .menu a svg,
+    .content_sidebar .logout svg {
+        margin-left: -10px;
 
     }
 
