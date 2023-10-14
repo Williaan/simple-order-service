@@ -15,7 +15,6 @@
 @media(max-width:420px) {
 
     .container_cards {
-        width: 90%;
         margin-top: 20px;
         margin-left: 100px;
     }
